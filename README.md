@@ -183,26 +183,26 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ### 训练参数
 ```python
 # train.py 和 train_WLoss.py 中的关键参数
-EPOCHS = 50               # 训练轮数
-BATCH_SIZE = 4            # 批次大小
-LR = 3e-4                 # 初始学习率
+epochs = 50               # 训练轮数
+batch_size = 4            # 批次大小
+lr = 3e-4                 # 初始学习率
 min_lr=1e-6               # 最小学习率
-WEIGHT_DECAY = 1e-5       # 权重衰减
-ALPHA = 0.5               # 混合损失权重(BCE+Dice)
+weight_decay = 1e-5       # 权重衰减
+alpha = 0.5               # 混合损失权重(BCE+Dice)
 ```
 ### 测试参数
 ```python
 # test.py 中的关键参数
-MIOU_MODE = 0             # 0:完整流程 1:仅预测 2:仅计算指标
-NUM_CLASSES = 2           # 类别数(背景+息肉)
-MAX_REGIONS = 2           # 后处理保留的最大区域数
-MIN_AREA_RATIO = 0.012    # 最小区域面积比例阈值
+miou_mode = 0             # 0:完整流程 1:仅预测 2:仅计算指标
+num_classes = 2           # 类别数(背景+息肉)
+max_regions = 2           # 后处理保留的最大区域数
+min_area_ratio = 0.012    # 最小区域面积比例阈值
 ```
 ### 输出轮廓图像参数
 ```python
-THRESHOLD = 0.5               # 分割阈值
-CONTOUR_COLOR = (0, 255, 0)   # 轮廓线颜色(BGR)
-LINE_WIDTH = 2                # 轮廓线宽度
+threshold = 0.5               # 分割阈值
+contour_color = (0, 255, 0)   # 轮廓线颜色(BGR)
+line_width = 2                # 轮廓线宽度
 ```
 ## 四、输出结果说明
 ### 训练过程输出
