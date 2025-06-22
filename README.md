@@ -313,7 +313,7 @@ data/results/
 
 ## 版权声明
 版权所有 © 2025 任威名，天津大学生物医学工程系  
-本软件遵循 [MIT 许可证](https://opensource.org/licenses/MIT) 发布，详情请参阅项目根目录下的 [LICENSE](./LICENSE) 文件。
+本项目基于 [MIT 许可证](https://opensource.org/licenses/MIT) 发布，详情请参阅项目根目录下的 [LICENSE](./LICENSE) 文件。
 
 *使用说明：本代码仅供学习和研究使用，禁止用于商业用途。引用本项目时请注明作者信息。*
 
