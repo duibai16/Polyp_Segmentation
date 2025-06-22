@@ -186,7 +186,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 epochs = 50               # 训练轮数
 batch_size = 4            # 批次大小
 lr = 3e-4                 # 初始学习率
-min_lr=1e-6               # 最小学习率
+min_lr = 1e-6             # 最小学习率
 weight_decay = 1e-5       # 权重衰减
 alpha = 0.5               # 混合损失权重(BCE+Dice)
 ```
